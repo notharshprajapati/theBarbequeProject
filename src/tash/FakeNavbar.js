@@ -1,7 +1,7 @@
 import cx from "classnames";
-import classes from "./Navbar.module.css";
+import classes from "./FakeNavbar.module.css";
 
-const Navbar = () => {
+const FakeNavbar = () => {
   return (
     <div>
       <header className={classes.lHeader} id="header">
@@ -51,4 +51,4 @@ const Navbar = () => {
     </div>
   );
 };
-export default Navbar;
+export default FakeNavbar;
