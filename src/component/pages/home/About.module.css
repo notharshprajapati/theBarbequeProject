@@ -1,58 +1,3 @@
-/*===== GOOGLE FONTS =====*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
-
-/*===== VARIABLES CSS =====*/
-:root {
-  --header-height: 3rem;
-
-  /*========== Colors ==========*/
-  --first-color: #069c54;
-  --first-color-alt: #048654;
-  --title-color: #393939;
-  --text-color: #707070;
-  --text-color-light: #a6a6a6;
-  --body-color: #fbfefd;
-  --container-color: #ffffff;
-
-  /*========== Font and typography ==========*/
-  --body-font: "Poppins", sans-serif;
-  --biggest-font-size: 2.25rem;
-  --h1-font-size: 1.5rem;
-  --h2-font-size: 1.25rem;
-  --h3-font-size: 1rem;
-  --normal-font-size: 0.938rem;
-  --small-font-size: 0.813rem;
-  --smaller-font-size: 0.75rem;
-
-  /*========== Font weight ==========*/
-  --font-medium: 500;
-  --font-semi-bold: 600;
-
-  /*========== Margenes ==========*/
-  --mb-1: 0.5rem;
-  --mb-2: 1rem;
-  --mb-3: 1.5rem;
-  --mb-4: 2rem;
-  --mb-5: 2.5rem;
-  --mb-6: 3rem;
-
-  /*========== z index ==========*/
-  --z-tooltip: 10;
-  --z-fixed: 100;
-}
-
-@media screen and (min-width: 768px) {
-  :root {
-    --biggest-font-size: 4rem;
-    --h1-font-size: 2.25rem;
-    --h2-font-size: 1.5rem;
-    --h3-font-size: 1.25rem;
-    --normal-font-size: 1rem;
-    --small-font-size: 0.875rem;
-    --smaller-font-size: 0.813rem;
-  }
-}
-
 /*========== BASE ==========*/
 *,
 ::before,
@@ -118,18 +63,18 @@ img {
   padding: 4rem 0 2rem;
 }
 
-.section-title,
-.section-subtitle {
+.sectionTitle,
+.sectionSubtitle {
   text-align: center;
 }
 
-.section-title {
+.sectionTitle {
   font-size: var(--h1-font-size);
-  color: var(--title-color);
+  color: var(--text-color);
   margin-bottom: var(--mb-3);
 }
 
-.section-subtitle {
+.sectionSubtitle {
   display: block;
   color: var(--first-color);
   font-weight: var(--font-medium);
@@ -137,14 +82,14 @@ img {
 }
 
 /*========== LAYOUT ==========*/
-.bd-container {
+.bdContainer {
   max-width: 960px;
   width: calc(100% - 2rem);
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
 }
 
-.bd-grid {
+.bdGrid {
   display: grid;
   gap: 1.5rem;
 }
@@ -278,6 +223,20 @@ img {
 .home__img {
   width: 300px;
   justify-self: center;
+}
+
+/*========== BUTTONS ==========*/
+.button {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: var(--first-color-alt);
 }
 
 /*========== ABOUT ==========*/
@@ -539,7 +498,7 @@ img {
 }
 
 @media screen and (min-width: 960px) {
-  .bd-container {
+  .bdContainer {
     margin-left: auto;
     margin-right: auto;
   }

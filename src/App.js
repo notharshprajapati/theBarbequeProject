@@ -1,10 +1,9 @@
 import React from "react";
-import Navbar from "./component/pages/home/Navbar";
-// import Comp from "./trash/Comp";
+import Navbar from "./component/pages/Navbar";
 import "./App.module.css";
 import ScrollTop from "./component/UI/ScrollTop";
 import Home from "./component/pages/home/Home";
-// import Home from "./component/UI/Home";
+import About from "./component/pages/home/About";
 // import cx from "classnames";
 // import classes from "./App.module.css";
 function App() {
@@ -14,9 +13,9 @@ function App() {
       <Navbar />
       <main className="l-main">
         <Home />
-        {/* <Comp /> */}
+        <About />
       </main>
-      {/* <h1 className={cx(classes.red, classes.size)}>multime class</h1> */}
+      {/* <h1  className={cx(classes.red, classes.size)}>multime class</h1> */}
     </React.Fragment>
   );
 }

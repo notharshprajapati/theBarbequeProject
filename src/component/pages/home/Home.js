@@ -1,21 +1,28 @@
-import "../../../trash/Comp.css";
+import cx from "classnames";
+import classes from "./Home.module.css";
 import home from "../../img/home.png";
 import Button from "../../UI/Button";
 
 const Home = () => {
   return (
-    <section className="home" id="home">
-      <div className="home__container bd-container bd-grid">
-        <div className="home__data">
-          <h1 className="home__title">Tasty food</h1>
-          <h2 className="home__subtitle">
+    <section className={classes.home} id="home">
+      <div
+        className={cx(
+          classes.home__container,
+          classes.bdContainer,
+          classes.bdGrid
+        )}
+      >
+        <div className={classes.home__data}>
+          <h1 className={classes.home__title}>Tasty food</h1>
+          <h2 className={classes.home__subtitle}>
             Try the best food of <br />
             the week.
           </h2>
           <Button link="#about" text="Order" />
         </div>
 
-        <img src={home} alt="" className="home__img" />
+        <img src={home} alt="" className={classes.home__img} />
       </div>
     </section>
   );
