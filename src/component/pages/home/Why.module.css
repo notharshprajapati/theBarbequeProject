@@ -6,8 +6,8 @@
 .bdContainer {
   max-width: 960px;
   width: calc(100% - 2rem);
-  margin-left: var(--mb-2);
-  margin-right: var(--mb-2);
+  margin-left: auto;
+  margin-right: auto;
 }
 .bdGrid {
   display: grid;
@@ -23,7 +23,7 @@
 
 .menu__container {
   grid-template-columns: repeat(2, 1fr);
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .section {

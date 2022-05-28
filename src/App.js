@@ -5,6 +5,7 @@ import ScrollTop from "./component/UI/ScrollTop";
 import Home from "./component/pages/home/Home";
 import About from "./component/pages/home/About";
 import Why from "./component/pages/home/Why";
+import Bestseller from "./component/pages/home/Bestseller";
 
 // import cx from "classnames";
 // import classes from "./App.module.css";
@@ -17,6 +18,7 @@ function App() {
         <Home />
         <About />
         <Why />
+        <Bestseller />
       </main>
       {/* <h1  className={cx(classes.red, classes.size)}>multime class</h1> */}
     </React.Fragment>
