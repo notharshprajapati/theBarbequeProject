@@ -9,3 +9,20 @@
 .slick-dots li.slick-active button:before {
   color: var(--first-color);
 }
+
+.slick-prev:before {
+  content: "←";
+}
+
+.slick-next:before {
+  content: "→";
+}
+
+.slick-next:before {
+  font-size: 20px;
+  color: var(--first-color);
+}
+.slick-prev:before {
+  font-size: 20px;
+  color: var(--first-color);
+}

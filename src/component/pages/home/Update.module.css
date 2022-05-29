@@ -5,10 +5,11 @@
 .bdContainer {
   max-width: 960px;
   width: calc(100% - 2rem);
-  margin-left: var(--mb-2);
-  margin-right: var(--mb-2);
+  margin-left: auto;
+  margin-right: auto;
 }
 .about__container {
+  grid-template-columns: 35rem 1fr;
   align-items: center;
 }
 

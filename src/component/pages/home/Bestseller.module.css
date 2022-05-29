@@ -1,6 +1,7 @@
 .grid {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 3fr 2fr;
+  padding: 0 var(--mb-6) 0 var(--mb-6);
 }
 .g2 {
   order: -1;
@@ -8,7 +9,7 @@
   min-width: 0px;
 }
 .g1 {
-  padding: 2rem;
+  padding-left: 5vh;
 }
 
 .section {

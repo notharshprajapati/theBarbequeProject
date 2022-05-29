@@ -16,7 +16,9 @@ const Bestseller = () => {
             gravies and luscious paneer lababdar? Look no further.
           </p>
         </div>
-        <div className={classes.g2}>{<Carousel array={images} />}</div>
+        <div className={classes.g2}>
+          {<Carousel array={images} length={4} arrows={false} />}
+        </div>
       </div>
     </section>
   );
