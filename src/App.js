@@ -8,6 +8,7 @@ import Why from "./component/pages/home/Why";
 import Bestseller from "./component/pages/home/Bestseller";
 import Testimonial from "./component/pages/home/Testimonial";
 import Update from "./component/pages/home/Update";
+import Footer from "./component/pages/Footer";
 // import cx from "classnames";
 // import classes from "./App.module.css";
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Testimonial />
         <Update />
       </main>
+      <Footer />
       {/* <h1  className={cx(classes.red, classes.size)}>multime class</h1> */}
     </React.Fragment>
   );
