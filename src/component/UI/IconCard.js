@@ -1,7 +1,7 @@
 import cx from "classnames";
-import classes from "./PriceCard.module.css";
+import classes from "./IconCard.module.css";
 
-const PriceCard = (props) => {
+const IconCard = (props) => {
   return (
     <div className={classes.menu__content}>
       {props.img && (
@@ -15,4 +15,4 @@ const PriceCard = (props) => {
   );
 };
 
-export default PriceCard;
+export default IconCard;
