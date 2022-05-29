@@ -9,23 +9,21 @@ const About = () => {
       className={cx(classes.about, classes.section, classes.bdContainer)}
       id="about"
     >
-      <div className={cx(classes.about__container, classes.bdGrid)}>
-        <div className={classes.about__data}>
-          <span className={cx(classes.sectionSubtitle, classes.about__initial)}>
-            About us
-          </span>
-          <h2 className={cx(classes.sectionTitle, classes.about__initial)}>
-            We cook the best <br />
-            tasty food
-          </h2>
-          <p className={classes.about__description}>
-            We cook the best food in the entire city, with excellent customer
-            service, the best meals and at the best price, visit us.
-          </p>
-          <Button link="#about" text="Explore history" />
-        </div>
-
-        <img src={about} alt="" className={classes.about__img} />
+      <div className={classes.about__data}>
+        <h2 className={cx(classes.sectionTitle, classes.about__initial)}>
+          We cook the best <br />
+          tasty food
+        </h2>
+        <p className={classes.about__description}>
+          We are strong believers in the importance of home-style food. Do you
+          remember coming back from school to the aroma of fresh dal tadka made
+          by mom? Do you fondly think of Amma's curd rice cooling you down
+          during the good 'ol summer holidays? We know you do!
+        </p>
+        <p className={classes.about__description}>
+          We at homely strive to bring back that home-like comfort and taste in
+          your food. So all you miss is mom herself and not her cooking!
+        </p>
       </div>
     </section>
   );
