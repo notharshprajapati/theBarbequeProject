@@ -23,6 +23,7 @@ function App() {
         <Bestseller />
         <Testimonial />
         <Update />
+        <h1>Lmao noob</h1>
       </main>
       <Footer />
       {/* <h1  className={cx(classes.red, classes.size)}>multime class</h1> */}
