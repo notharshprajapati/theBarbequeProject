@@ -2,7 +2,7 @@ import cx from "classnames";
 import classes from "./Bestseller.module.css";
 
 import Carousel from "../../UI/Carousel";
-import images from "../images";
+import images from "../../data/images";
 const Bestseller = () => {
   return (
     <section id="about">

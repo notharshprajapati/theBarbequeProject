@@ -1,9 +1,9 @@
 import cx from "classnames";
-import classes from "./Home.module.css";
+import classes from "./Top.module.css";
 import home from "../../img/home.png";
 import Button from "../../UI/Button";
 
-const Home = () => {
+const Top = () => {
   return (
     <section className={classes.home} id="home">
       <div
@@ -28,4 +28,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Top;

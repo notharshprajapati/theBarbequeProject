@@ -1,7 +1,5 @@
 import cx from "classnames";
 import classes from "./About.module.css";
-import about from "../../img/about.jpg";
-import Button from "../../UI/Button";
 
 const About = () => {
   return (

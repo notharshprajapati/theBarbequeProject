@@ -1,4 +1,5 @@
 // import stick1 from "../img/svg/stick1.png";
+
 import stick2 from "../img/svg/stick2.png";
 import stick3 from "../img/svg/stick3.png";
 import stick4 from "../img/svg/stick4.png";
@@ -19,6 +20,7 @@ import stick18 from "../img/svg/stick18.png";
 import stick19 from "../img/svg/stick19.png";
 import stick20 from "../img/svg/stick20.png";
 
+// eslint-disable-next-line
 export default [
   // stick1,
   stick2,

@@ -1,6 +1,6 @@
 import cx from "classnames";
 import classes from "./Testimonial.module.css";
-import images from "../images";
+import images from "../../data/images";
 import Carousel from "../../UI/Carousel";
 
 const Testimonial = () => {

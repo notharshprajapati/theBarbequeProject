@@ -1,4 +1,3 @@
-import cx from "classnames";
 import "./Footer.css";
 
 const Footer = () => {
@@ -6,18 +5,18 @@ const Footer = () => {
     <footer className="footer section bdContainer">
       <div className="footer__container bdGrid">
         <div className="footer__content">
-          <a href="#" className="footer__logo">
+          <a href="#home" className="footer__logo">
             Tasty Food
           </a>
           <span className="footer__description">Restaurant</span>
           <div>
-            <a href="#" className="footer__social">
+            <a href="#home" className="footer__social">
               <i className="bx bxl-facebook"></i>
             </a>
-            <a href="#" className="footer__social">
+            <a href="#home" className="footer__social">
               <i className="bx bxl-instagram"></i>
             </a>
-            <a href="#" className="footer__social">
+            <a href="#home" className="footer__social">
               <i className="bx bxl-twitter"></i>
             </a>
           </div>
@@ -35,27 +34,27 @@ const Footer = () => {
           <h3 className="footer__title">Quick Links</h3>
           <ul>
             <li>
-              <a href="#Home" className="footer__link">
+              <a href="#homeHome" className="footer__link">
                 Home
               </a>
             </li>
             <li>
-              <a href="#" className="footer__link">
+              <a href="#home" className="footer__link">
                 About
               </a>
             </li>
             <li>
-              <a href="#" className="footer__link">
+              <a href="#home" className="footer__link">
                 Menu
               </a>
             </li>
             <li>
-              <a href="#" className="footer__link">
+              <a href="#home" className="footer__link">
                 Review us
               </a>
             </li>
             <li>
-              <a href="#" className="footer__link">
+              <a href="#home" className="footer__link">
                 Contact
               </a>
             </li>
@@ -66,22 +65,22 @@ const Footer = () => {
           <h3 className="footer__title">Information</h3>
           <ul>
             <li>
-              <a href="#" className="footer__link">
+              <a href="#home" className="footer__link">
                 Follow us
               </a>
             </li>
             <li>
-              <a href="#" className="footer__link">
+              <a href="#home" className="footer__link">
                 Locate Shop
               </a>
             </li>
             <li>
-              <a href="#" className="footer__link">
+              <a href="#home" className="footer__link">
                 Privacy policy
               </a>
             </li>
             <li>
-              <a href="#" className="footer__link">
+              <a href="#home" className="footer__link">
                 Terms of services
               </a>
             </li>
@@ -89,7 +88,9 @@ const Footer = () => {
         </div>
       </div>
 
-      <p className="footer__copy">&#169; 2020 Bedimcode. All right reserved</p>
+      <p className="footer__copy">
+        &#home169; 2020 Bedimcode. All right reserved
+      </p>
     </footer>
   );
 };
