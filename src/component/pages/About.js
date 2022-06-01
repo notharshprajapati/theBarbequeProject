@@ -1,7 +1,14 @@
-import React from "react";
+import Top from "./about/Top";
+import Located from "./about/Located";
+
 
 const About = () => {
-  return <div>About</div>;
+  return (
+    <main className="l-main">
+      <Top />
+      <Located />
+    </main>
+  );
 };
 
 export default About;

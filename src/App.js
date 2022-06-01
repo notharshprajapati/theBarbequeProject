@@ -5,7 +5,7 @@ import ScrollTop from "./component/UI/ScrollTop";
 import Footer from "./component/UI/Footer";
 
 // import Home from "./component/pages/Home";
-import Review from "./component/pages/Review";
+import About from "./component/pages/About";
 
 import "./App.module.css";
 
@@ -14,7 +14,7 @@ function App() {
     <React.Fragment>
       <ScrollTop />
       <Navbar />
-      <Review />
+      <About />
       <Footer />
     </React.Fragment>
   );

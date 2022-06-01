@@ -5,28 +5,6 @@ import "slick-carousel/slick/slick-theme.css";
 import IconCard from "./IconCard";
 import "./Carousel.css";
 
-// function SampleNextArrow(props) {
-//   const { className, style, onClick } = props;
-//   return (
-//     <div
-//       className={className}
-//       style={{ ...style, display: "block", background: "red" }}
-//       onClick={onClick}
-//     />
-//   );
-// }
-
-// function SamplePrevArrow(props) {
-//   const { className, style, onClick } = props;
-//   return (
-//     <div
-//       className={className}
-//       style={{ ...style, display: "block", background: "green" }}
-//       onClick={onClick}
-//     />
-//   );
-// }
-
 const Carousel = (props) => {
   const settings = {
     dots: true,
@@ -35,8 +13,6 @@ const Carousel = (props) => {
     slidesToShow: props.length,
     slidesToScroll: props.length,
     arrows: props.arrows,
-    // nextArrow: <SampleNextArrow />,
-    // prevArrow: <SamplePrevArrow />,
   };
   return (
     <div>
