@@ -1,13 +1,16 @@
 import Top from "./about/Top";
-import Located from "./about/Located";
-import Journey from "./about/Journey";
+// import Located from "./about/Located";
+// import Journey from "./about/Journey";
+import Packing from "./about/Packing";
 
 const About = () => {
   return (
     <main className="l-main">
       <Top />
       {/* <Located /> */}
-      <Journey />
+      {/* <Journey /> */}
+      {/* <Inside /> */}
+      <Packing />
     </main>
   );
 };
