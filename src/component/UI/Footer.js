@@ -89,7 +89,7 @@ const Footer = () => {
       </div>
 
       <p className="footer__copy">
-        &#home169; 2020 Bedimcode. All right reserved
+        {"\u00A9"} 2022 the barbeque project. All Rights Reserved
       </p>
     </footer>
   );
