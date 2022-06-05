@@ -1,7 +1,7 @@
 import cx from "classnames";
-import classes from "./Testimonial.module.css";
-import stickers from "../../data/stickers";
-import Carousel from "../../UI/Carousel";
+import classes from "./Favourite.module.css";
+import food from "../../data/food";
+import FavScroll from "../../UI/FavScroll";
 
 const Testimonial = () => {
   return (
@@ -11,14 +11,11 @@ const Testimonial = () => {
     >
       <div className={classes.about__data}>
         <h2 className={cx(classes.sectionTitle, classes.about__initial)}>
-          Thank you for all the love
+          Consumer favorites
         </h2>
-        <p className={classes.about__description}>
-          We appreciate your pyaar-filled testimonials
-        </p>
       </div>
       <div style={{ padding: "0 5rem 0 5rem" }}>
-        <Carousel array={stickers} length={3} arrows={true} />
+        <FavScroll array={food} length={3} arrows={true} />
       </div>
     </section>
   );

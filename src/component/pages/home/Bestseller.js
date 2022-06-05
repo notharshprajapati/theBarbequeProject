@@ -2,7 +2,7 @@ import cx from "classnames";
 import classes from "./Bestseller.module.css";
 
 import Carousel from "../../UI/Carousel";
-import images from "../../data/images";
+import stickers from "../../data/stickers";
 const Bestseller = () => {
   return (
     <section id="about">
@@ -17,7 +17,7 @@ const Bestseller = () => {
           </p>
         </div>
         <div className={classes.g2}>
-          {<Carousel array={images} length={4} arrows={false} />}
+          {<Carousel array={stickers} length={4} arrows={false} />}
         </div>
       </div>
     </section>

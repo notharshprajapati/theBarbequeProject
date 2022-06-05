@@ -1,0 +1,39 @@
+.section {
+  padding: 4rem 0 2rem;
+}
+.bdContainer {
+  max-width: 1080px;
+  width: calc(100% - 2rem);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: var(--h1-font-size);
+  color: var(--first-color);
+  margin-bottom: var(--mb-3);
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    padding-top: 8rem;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .bdContainer {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .about__data {
+    padding: 0 var(--mb-6) 0 var(--mb-6);
+    text-align: initial;
+  }
+  .about__initial {
+    text-align: center;
+  }
+}

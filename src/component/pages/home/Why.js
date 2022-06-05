@@ -1,8 +1,8 @@
 import cx from "classnames";
 import classes from "./Why.module.css";
 
-import stick13 from "../../img/svg/stick13.png";
-import stick14 from "../../img/svg/stick14.png";
+import stickers from "../../data/stickers";
+
 import IconCard from "../../UI/IconCard";
 
 const Why = () => {
@@ -14,8 +14,8 @@ const Why = () => {
       <h2 className={classes.sectionTitle}>Why Choose Our Food ?</h2>
 
       <div className={cx(classes.menu__container, classes.bdGrid)}>
-        <IconCard img={stick13} text={"Quality Food"} />
-        <IconCard img={stick14} text={"Healthy Food"} />
+        <IconCard img={stickers[13]} text={"Quality Food"} />
+        <IconCard img={stickers[14]} text={"Healthy Food"} />
         <IconCard svg={"bx bx-cart"} text={"Fast Delivery"} />
       </div>
 
