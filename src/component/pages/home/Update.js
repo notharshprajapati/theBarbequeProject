@@ -15,8 +15,9 @@ const Update = () => {
             tasty food
           </h2>
           <p className={classes.about__description}>
-            We believe in a good feed and great food! Follow us on Instagram to
-            enjoy some friends and family homely moments.
+            We believe in a good feed and great food! <br />
+            Follow us on Instagram to enjoy some friends and family homely
+            moments.
           </p>
           <Button text={"Follow us"} />
         </div>

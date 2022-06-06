@@ -13,7 +13,7 @@ const Top = () => {
         )}
       >
         <div className={classes.home__data}>
-          <h1 className={classes.home__title}>Review Us</h1>
+          <h1 className={classes.home__title}>About Us</h1>
           <h2 className={classes.home__subtitle}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa

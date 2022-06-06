@@ -1,6 +1,6 @@
 import cx from "classnames";
 import classes from "./Testimonial.module.css";
-import stickers from "../../data/stickers";
+import foods from "../../data/foods.json";
 import Carousel from "../../UI/Carousel";
 
 const Testimonial = () => {
@@ -17,8 +17,8 @@ const Testimonial = () => {
           We appreciate your pyaar-filled testimonials
         </p>
       </div>
-      <div style={{ padding: "0 5rem 0 5rem" }}>
-        <Carousel array={stickers} length={3} arrows={true} />
+      <div style={{ padding: "0 1rem 0 1rem" }}>
+        <Carousel array={foods} length={3} arrows={true} />
       </div>
     </section>
   );

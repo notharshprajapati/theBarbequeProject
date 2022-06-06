@@ -1,13 +1,13 @@
 .section {
   padding: 4rem 0 2rem;
 }
-.bd-container {
+.bdContainer {
   max-width: 960px;
   width: calc(100% - 2rem);
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
 }
-.bd-grid {
+.bdGrid {
   display: grid;
   gap: 1.5rem;
 }
@@ -15,7 +15,7 @@
   text-align: justify;
   text-justify: inter-word;
 }
-.section-title {
+.sectionTitle {
   font-size: var(--h1-font-size);
   color: var(--first-color);
   margin-bottom: var(--mb-3);
@@ -45,7 +45,7 @@
 
 @media screen and (min-width: 768px) {
   .section {
-    padding-top: 8rem;
+    padding-top: 10rem;
   }
   .about__container {
     grid-template-columns: repeat(2, 1fr);
@@ -61,7 +61,7 @@
 }
 
 @media screen and (min-width: 960px) {
-  .bd-container {
+  .bdContainer {
     margin-left: auto;
     margin-right: auto;
   }

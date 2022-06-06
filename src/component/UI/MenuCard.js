@@ -1,5 +1,6 @@
 import classes from "./MenuCard.module.css";
 import { motion } from "framer-motion";
+
 function MenuCard(props) {
   return (
     <motion.div

@@ -1,18 +1,23 @@
 import React from "react";
-import "./Packing.css";
-import About from "../../img/about.jpg";
-import images from "../../data/images";
+
+import cx from "classnames";
+import classes from "./Packing.module.css";
+
+import stickers from "../../data/stickers";
 import IconCard from "../../UI/IconCard";
 
 const Packing = () => {
   return (
-    <section class="about section bd-container" id="about">
-      <div class="about__container bd-grid">
-        <div class="about__data">
-          <h2 class="section-title about__initial">
+    <section
+      className={cx(classes.about, classes.section, classes.bdContainer)}
+      id="about"
+    >
+      <div className={cx(classes.about__container, classes.bdGrid)}>
+        <div className={classes.about__data}>
+          <h2 className={cx(classes.sectionTitle, classes.about__initial)}>
             What goes on in our kitchens?
           </h2>
-          <p class="about__description">
+          <p className={classes.about__description}>
             The food in our kitchens is made with the highest standard of
             quality and cleanliness. We understand the value of your trust,
             therefore our cooking stations go through rigorous cleaning
@@ -20,11 +25,11 @@ const Packing = () => {
           </p>
         </div>
       </div>
-      <div className="iconcard">
-        <IconCard img={images[7]} text={"4.5+ Rating"} />
-        <IconCard img={images[8]} text={"39+ kitchens"} />
-        <IconCard img={images[9]} text={"19 lakh+ consumers"} />
-        <IconCard img={images[10]} text={"Delivered 92 lakh+"} />
+      <div className={classes.iconcard}>
+        <IconCard img={stickers[7]} text={"4.5+ Rating"} />
+        <IconCard img={stickers[8]} text={"39+ kitchens"} />
+        <IconCard img={stickers[9]} text={"19 lakh+ consumers"} />
+        <IconCard img={stickers[10]} text={"Delivered 92 lakh+"} />
       </div>
     </section>
   );

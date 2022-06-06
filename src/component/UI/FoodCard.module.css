@@ -9,6 +9,8 @@
 .menu__img {
   display: flex;
   align-self: center;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   padding: 2rem;
   border-radius: 50px;

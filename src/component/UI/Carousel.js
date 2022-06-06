@@ -2,7 +2,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import IconCard from "./IconCard";
+import FoodCard from "../UI/FoodCard";
 import "./Carousel.css";
 
 const Carousel = (props) => {
@@ -17,10 +17,10 @@ const Carousel = (props) => {
   return (
     <div>
       <Slider {...settings}>
-        {props.array.map((image) => {
+        {props.array.map((idx) => {
           return (
             <div className="box">
-              <IconCard img={image} text={"Dish Name"} />
+              <FoodCard img={idx.image} text={idx.name} />
             </div>
           );
         })}

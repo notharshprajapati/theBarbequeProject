@@ -1,17 +1,9 @@
-.grid {
-  display: grid;
-  grid-template-columns: 3fr 2fr;
-  padding: 0 var(--mb-6) 0 var(--mb-6);
+.bdContainer {
+  max-width: 960px;
+  width: calc(100% - 2rem);
+  margin-left: auto;
+  margin-right: auto;
 }
-.g2 {
-  order: -1;
-  align-self: center;
-  min-width: 0px;
-}
-.g1 {
-  padding-left: 5vh;
-}
-
 .section {
   padding: 4rem 0 2rem;
 }
@@ -37,13 +29,17 @@
 }
 @media screen and (min-width: 768px) {
   .section {
-    padding-top: 8rem;
+    padding-top: 10rem;
   }
 }
 
 @media screen and (min-width: 960px) {
   .about__container {
     column-gap: 2rem;
+  }
+  .bdContainer {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
