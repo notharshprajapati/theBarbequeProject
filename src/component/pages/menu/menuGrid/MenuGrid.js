@@ -4,6 +4,7 @@ import MenuCard from "./MenuCard";
 import classes from "./MenuGrid.module.css";
 import cx from "classnames";
 import Filter from "./Filter";
+import { motion, AnimatePresence } from "framer-motion";
 
 const MenuGrid = () => {
   const [filtered, setFiltered] = useState([]);
@@ -26,11 +27,15 @@ const MenuGrid = () => {
         setActiveFilter={setActiveFilter}
       />
 
-      <div className={classes.grid}>
-        {filtered.map((food) => {
-          return <MenuCard key={food.id} image={food.image} name={food.name} />;
-        })}
-      </div>
+      <motion.div layout className={classes.grid}>
+        <AnimatePresence>
+          {filtered.map((food) => {
+            return (
+              <MenuCard key={food.id} image={food.image} name={food.name} />
+            );
+          })}
+        </AnimatePresence>
+      </motion.div>
     </section>
   );
 };

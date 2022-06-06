@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import "./Filter.css";
 
 const Filter = ({ foods, setFiltered, activeFilter, setActiveFilter }) => {
   useEffect(() => {

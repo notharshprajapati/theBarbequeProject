@@ -1,7 +1,13 @@
 import classes from "./MenuCard.module.css";
+import { motion } from "framer-motion";
 function MenuCard(props) {
   return (
-    <div>
+    <motion.div
+      animate={{ opacity: 1 }}
+      initial={{ opacity: 0 }}
+      exit={{ opacity: 0 }}
+      layout
+    >
       <div className={classes.menu__content}>
         {props.image && (
           <img
@@ -15,7 +21,7 @@ function MenuCard(props) {
           <span className={classes.menu__detail}>{props.name}</span>
         )}
       </div>
-    </div>
+    </motion.div>
   );
 }
 
