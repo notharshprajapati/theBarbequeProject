@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import foods from "../../../data/foods.json";
-import MenuCard from "./MenuCard";
+import MenuCard from "../../../UI/MenuCard";
 import classes from "./MenuGrid.module.css";
 import cx from "classnames";
 import Filter from "./Filter";

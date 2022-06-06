@@ -6,7 +6,7 @@ import Footer from "./component/UI/Footer";
 
 // eslint-disable-next-line
 import About from "./component/pages/About";
-// import Menu from "./component/pages/Menu";
+import Menu from "./component/pages/Menu";
 
 import "./App.css";
 
@@ -15,7 +15,7 @@ function App() {
     <React.Fragment>
       <ScrollTop />
       <Navbar />
-      <About />
+      <Menu />
       <Footer />
     </React.Fragment>
   );
