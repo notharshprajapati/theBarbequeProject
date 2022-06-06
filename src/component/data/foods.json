@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": "Achaari Chicken Tikka",
+    "image": "images/AchaariChickenTikka.jpg",
+    "veg": [0, 2]
+  },
+  {
+    "id": 2,
+    "name": "Achaari Soya Tikka",
+    "image": "images/AchaariSoyaTikka.jpg",
+    "veg": [0, 1]
+  },
+  {
+    "id": 3,
+    "name": "Afghani Soya Tikka",
+    "image": "images/AfghaniSoyaTikka.jpg",
+    "veg": [0, 1]
+  },
+  {
+    "id": 4,
+    "name": "Butter Grill Soya Tikka",
+    "image": "images/ButterGrillSoyaTikka.jpg",
+    "veg": [0, 1]
+  },
+  {
+    "id": 5,
+    "name": "Chicken Seekh Kebab",
+    "image": "images/ChickenSeekhKebab.jpg",
+    "veg": [0, 2]
+  },
+  {
+    "id": 6,
+    "name": "Grilled Mushroom Tikka",
+    "image": "images/GrilledMushroomTikka.jpg",
+    "veg": [0, 1]
+  },
+  {
+    "id": 7,
+    "name": "Kasturi Chicken Tikka",
+    "image": "images/KasturiChickenTIkka.jpg",
+    "veg": [0, 2]
+  },
+  {
+    "id": 8,
+    "name": "Lehsuni Chicken Tikka",
+    "image": "images/LehsuniChickenTikka.jpg",
+    "veg": [0, 2]
+  },
+  {
+    "id": 9,
+    "name": "Malai Panner Tikka",
+    "image": "images/MalaiPannerTikka.jpg",
+    "veg": [0, 1]
+  },
+  {
+    "id": 10,
+    "name": "Murg Tikka Kali Mirch",
+    "image": "images/MurgTikkaKaliMirch.jpg",
+    "veg": [0, 2]
+  },
+  {
+    "id": 11,
+    "name": "Mutton Seekh Kebab",
+    "image": "images/MuttonSeekhKebab.jpg",
+    "veg": [0, 2]
+  },
+  {
+    "id": 12,
+    "name": "Paneer Tikka Kali Mirch",
+    "image": "images/PaneerTikkaKaliMircch.jpg",
+    "veg": [0, 1]
+  },
+  {
+    "id": 13,
+    "name": "Paneer Tikka Shashlik",
+    "image": "images/PaneerTikkaShashlik.jpg",
+    "veg": [0, 1]
+  }
+]

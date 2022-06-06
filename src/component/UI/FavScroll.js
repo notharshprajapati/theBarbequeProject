@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import FavCard from "./FavCard";
 import "./Carousel.css";
 
+
 const FavScroll = (props) => {
   const settings = {
     dots: true,
@@ -17,10 +18,10 @@ const FavScroll = (props) => {
   return (
     <div>
       <Slider {...settings}>
-        {props.array.map((image) => {
+        {props.array.map((food) => {
           return (
             <div className="box">
-              <FavCard img={image} text={"Dish Name"} />
+              <FavCard img={food.image} text={food.name} />
             </div>
           );
         })}

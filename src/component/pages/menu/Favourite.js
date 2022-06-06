@@ -1,6 +1,6 @@
 import cx from "classnames";
 import classes from "./Favourite.module.css";
-import food from "../../data/food";
+import foods from "../../data/foods.json";
 import FavScroll from "../../UI/FavScroll";
 
 const Testimonial = () => {
@@ -15,7 +15,7 @@ const Testimonial = () => {
         </h2>
       </div>
       <div style={{ padding: "0 5rem 0 5rem" }}>
-        <FavScroll array={food} length={3} arrows={true} />
+        <FavScroll array={foods} length={3} arrows={true} />
       </div>
     </section>
   );
