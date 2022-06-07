@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Ajo Jose",
+    "statement": "Realy great food",
+    "image": "images/ttm/AjoJose.png"
+  },
+  {
+    "id": 2,
+    "name": "Angel Priya",
+    "statement": "Great place for birthday parties",
+    "image": "images/ttm/AngelPriya.png"
+  },
+  {
+    "id": 3,
+    "name": "Asif Khan",
+    "statement": "Nice staff, very good service",
+    "image": "images/ttm/AsifKhan.png"
+  },
+  {
+    "id": 4,
+    "name": "Riya Gupta",
+    "statement": "Amazing food",
+    "image": "images/ttm/RiyaGupta.png"
+  },
+  {
+    "id": 5,
+    "name": "Naim Ahmed",
+    "statement": "Food quality is awesome",
+    "image": "images/ttm/NaimAhmed.png"
+  },
+  {
+    "id": 6,
+    "name": "Pooja Prakash",
+    "statement": "Atmosphere is soothing and soft",
+    "image": "images/ttm/PoojaPrakash.png"
+  },
+  {
+    "id": 7,
+    "name": "Rohit Kleen",
+    "statement": "Best for family functions",
+    "image": "images/ttm/RohitKleen.png"
+  },
+  {
+    "id": 8,
+    "name": "Vineeta Sharma",
+    "statement": "Really great food",
+    "image": "images/ttm/VineetaSharma.png"
+  },
+  {
+    "id": 9,
+    "name": "Moni Roy",
+    "statement": "Nagin approved",
+    "image": "images/ttm/MoniRoy.png"
+  }
+]

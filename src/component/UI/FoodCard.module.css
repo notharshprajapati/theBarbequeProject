@@ -34,6 +34,15 @@
   font-size: 5rem;
   color: var(--first-color);
 }
+.statement {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  font-size: 1rem;
+  text-align: left;
+  padding: 1rem;
+  margin-bottom: var(--mb-4);
+}
 
 @media screen and (min-width: 768px) {
   .menu__img {

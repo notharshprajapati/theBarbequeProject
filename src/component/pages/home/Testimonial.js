@@ -1,6 +1,6 @@
 import cx from "classnames";
 import classes from "./Testimonial.module.css";
-import foods from "../../data/foods.json";
+import ttm from "../../data/ttm.json";
 import Carousel from "../../UI/Carousel";
 
 const Testimonial = () => {
@@ -18,7 +18,7 @@ const Testimonial = () => {
         </p>
       </div>
       <div style={{ padding: "0 1rem 0 1rem" }}>
-        <Carousel array={foods} length={3} arrows={true} />
+        <Carousel array={ttm} length={3} arrows={true} />
       </div>
     </section>
   );

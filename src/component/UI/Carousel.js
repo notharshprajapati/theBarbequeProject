@@ -20,7 +20,11 @@ const Carousel = (props) => {
         {props.array.map((idx) => {
           return (
             <div className="box">
-              <FoodCard img={idx.image} text={idx.name} />
+              <FoodCard
+                img={idx.image}
+                text={idx.name}
+                statement={idx.statement}
+              />
             </div>
           );
         })}
